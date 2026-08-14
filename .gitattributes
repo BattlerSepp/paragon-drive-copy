@@ -1,0 +1,9 @@
+# Configuration for git attributes
+*.map linguist-generated
+
+docs/** linguist-vendored
+*.png binary
+src/** linguist-detectable
+
+docs/**/*.html linguist-vendored
+src/**/*.ts linguist-detectable
